@@ -1,0 +1,64 @@
+.outer-div {
+  width: 100%;
+  text-align: center;
+  background-color: #23779f;
+}
+
+.inner-div {
+  display: inline-block;
+  height: 40px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: #23779f
+}
+
+.first-page {
+  width: 100%;
+  background-color: #f8e3a3;
+  min-height: 80vh;
+
+}
+.button {
+  margin: 50px;
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  color: #ffffff;
+}
+.buttons{
+  color: #ffffff;
+  background:#23779f;
+
+}
+.buttons:hover {
+ background-color: rgb(27, 110, 148);
+ color: hsl(0, 0%, 100%);
+}
+
+.vertical-center {
+  margin: 10px;
+  position: absolute;
+  right: 50%;
+
+}
+
+.select-form {
+  border-color:#23789f2f;
+  padding-top: 20px;
+  
+}
+.title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+.checked-item,
+.not-checked-item {
+  margin-left: 10px;
+}
